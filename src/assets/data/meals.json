@@ -1,0 +1,122 @@
+{   
+    "meals" : [
+
+        { "name": "Rice with chicken",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCNnuBQLyn9ClaLUTI3UUjhGmRxQ4F-ToWifIqV2TYNaQ1wLzSmoFxzj1dj8wcMiKo8s0&usqp=CAU",
+        "calories": "425",
+        "ingredients": [ {
+                "name": "rice",
+                "quantity": 100,
+                "kcal" : 400
+            },
+            {
+                "name": "chicken",
+                "quantity": 125,
+                "kcal" : 325
+            },
+            {
+                "name": "butter",
+                "quantity": 50,
+                "kcal" : 500
+            } 
+        ]},
+
+        { "name": "roasted fish",
+            "img": "https://img.taste.com.au/95a__AUr/w1200-h630-cfill/taste/2016/11/egyptian-style-fish-with-roasted-vegetables-54775-1.jpeg",
+            "calories": "523",
+            "ingredients": [ {
+                    "name" : "fish",
+                    "quantity": 300,
+                    "kcal" : 520
+                },
+                {
+                    "name" : "carrot",
+                    "quantity": 65,
+                    "kcal" : 65
+                },
+                {
+                    "name" : "courgette",
+                    "quantity": 50,
+                    "kcal" : 70
+                } 
+            ]},
+
+            { "name": "BBQ Chicken Sandwitch",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdKeqwtHEa8leFJRG__gJ5yOxyDXSIEKw8FpvUE7qP65R62E6wofRrzBtAANnsjHgjfpA&usqp=CAU",
+                "calories": "625",
+                "ingredients": [ {
+                        "name" : "chicken",
+                        "quantity": 125,
+                        "kcal" : 325
+                    },
+                    {
+                        "name" : "bread",
+                        "quantity": 105,
+                        "kcal" : 235
+                    },
+                    {
+                        "name" : "cheese",
+                        "quantity": 70,
+                        "kcal" : 180
+                    },
+                    {
+                        "name" : "tomato",
+                        "quantity": 85,
+                        "kcal" : 40
+                    },
+                    {
+                        "name" : "bbq sause",
+                        "quantity": 10,
+                        "kcal" : 15
+                    }
+                ]
+            },
+
+            { "name": "porridge - owsianka",
+                "img": "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322546/oatmeal-porridge-with-apple-and-cinnamon-in-bowl-for-breakfast.jpg",
+                "calories": "377",
+                "ingredients":[ {
+                        "name" : "porridge",
+                        "quantity": 100,
+                        "kcal" : 370
+                    },
+                    {
+                        "name" : "apple",
+                        "quantity": 25,
+                        "kcal" : 125
+                    },
+                    {
+                        "name" : "cinnamon",
+                        "quantity": 5,
+                        "kcal" : 5
+                    }
+                ]
+            },
+
+            { "name": "pasta and lentils",
+                "img": "http://veganbanda.pl/wp-content/uploads/2016/04/DSC_0540_2.jpg",
+                "calories": "553",
+                "ingredients":[ {
+                        "name" : "pasta",
+                        "quantity": 90,
+                        "kcal" : 150
+                    },
+                    {
+                        "name" : "lentils",
+                        "quantity": 200,
+                        "kcal" : 320
+                    },
+                    {
+                        "name" : "onion",
+                        "quantity": 25,
+                        "kcal" : 45
+                    },
+                    {
+                        "name" : "carrot",
+                        "quantity": 20,
+                        "kcal" : 50
+                    }
+                ]
+            }
+]
+}

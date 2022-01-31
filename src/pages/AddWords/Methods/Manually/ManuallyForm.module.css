@@ -1,0 +1,34 @@
+.formConteiner{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: Lato;
+    margin-top: 15px;
+    width: 450px;
+    min-width: 450px;
+}
+
+.lineBreakManuallyForm {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submitButton{
+    background-color: #E69025;
+    border-style: none;
+    color:black;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 75px;
+}
+
+.addFieldButton{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 75px;
+}

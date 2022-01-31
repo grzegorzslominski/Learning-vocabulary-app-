@@ -1,0 +1,55 @@
+.conteiner{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 50%;
+}
+
+.createDiet{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+.createDietLink{
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #2A7EDB;
+    width: 300px;
+}
+
+.createAccount{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+.createAccountLink{
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #e68225;
+    font-size: 1.2rem;
+    margin-bottom: 120px;
+    width: 300px;
+}

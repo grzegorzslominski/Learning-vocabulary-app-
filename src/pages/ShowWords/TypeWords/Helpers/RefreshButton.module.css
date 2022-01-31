@@ -1,0 +1,18 @@
+.refreshIcon{
+    background-image: url('../../../../assets/images/refreshIcon.png');
+    background-repeat: no-repeat;
+    border-style: none;
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 25%;  
+    background-position: center;
+    margin: 7.5px;
+
+}
+
+.refreshIcon:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

@@ -1,0 +1,75 @@
+
+.mainConteiner{
+ background-color: #2BE052;
+ color: white;
+ display: flex;
+ justify-content: center;
+ min-width: 400px;
+ min-height: 250px;
+ border-radius: 25px;
+ opacity: 0.75;
+ margin-top: 45px;
+}
+
+.wordConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width:280px;
+    font-family: Lato;
+    font-size:xx-large;
+}
+
+.buttonConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 120px;
+}
+
+
+
+.reverseButton{
+    background-image: url('../../assets/images/reversIcon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-style: none;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 25%;  
+    background-position: center;
+    margin: 7.5px;
+
+}
+
+.reverseButton:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.addButton{
+    background-image: url('../../assets/images/checkIcon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-style: none;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 25%;  
+    background-position: center;
+    margin: 7.5px;
+}
+
+.addButton:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

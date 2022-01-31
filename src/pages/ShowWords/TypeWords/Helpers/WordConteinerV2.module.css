@@ -1,0 +1,51 @@
+.clicked{
+    font-size: 1rem;
+    background-color: white;
+    width: 300px;
+    height: 35px;
+    margin: 5px;
+    margin-right: 0px;
+    border-radius: 10px 0px 0px 10px;
+    border-style: none;
+    opacity: 0.3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.noClicked{
+    font-size: 1rem;
+    background-color: white;
+    width: 300px;
+    height: 35px;
+    margin: 5px;
+    margin-right: 0px;
+    border-radius: 10px 0px 0px 10px;
+    border-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteinerWordConteiner{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendingButton{
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    background-color: rgb(246, 109, 109);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.sendingButton:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

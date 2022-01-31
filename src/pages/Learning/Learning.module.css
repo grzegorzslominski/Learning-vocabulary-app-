@@ -1,0 +1,76 @@
+.conteinerActualWords{
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.button{
+    margin-top: 15px;
+    position: relative;
+    background-color: #E69025;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  }
+  
+  .button:hover {
+    transition-duration: 0.1s;
+    background-color: #f6b41b;
+  }
+  
+  .button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+  }
+  
+  .button:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .button:active {
+    top: 1px;
+  }
+
+  .buttonConteiner{
+    margin-top: 20px;
+  }
+
+  .navigationButton{
+    font-weight: 900;
+    font-size: 1.7rem;
+    margin: 20px;
+    width: 125px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(139, 136, 136);
+  }
+
+  .navigationButton:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.24);
+}

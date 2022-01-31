@@ -1,0 +1,15 @@
+.nextPageButton{
+    background-color: white;
+    border-style: none;
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 25%; 
+    margin: 7.5px;
+}
+
+.nextPageButton:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

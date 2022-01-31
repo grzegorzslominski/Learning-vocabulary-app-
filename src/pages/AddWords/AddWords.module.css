@@ -1,0 +1,19 @@
+.conteinerAddWords{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: Lato;
+    margin-top: 15px;
+    width: 95%;
+}
+
+.lineBreakAddWords {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contentContiner{
+    display: flex;
+    justify-content: center;
+}

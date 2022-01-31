@@ -1,0 +1,16 @@
+.header{
+    height: 50px;
+    background-color: #76b5c5;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 15px;
+}
+
+img{
+    height: 125px;
+    margin: 15px;
+    
+}
+
